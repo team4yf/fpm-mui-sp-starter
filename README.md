@@ -15,6 +15,20 @@ npm install
 npm run start
 ```
 
+## Modify the project config
+
+- fpmc
+  - [ ] at `src/App.js` line 9
+
+- logo
+- page title
+- routers/menus
+
+## Get more info
+
+The `material-ui` docs: [https://material-ui.com/api/app-bar/](https://material-ui.com/api/app-bar/)
+
+
 # Changelog
 
 - V0.0.1
