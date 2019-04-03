@@ -1,12 +1,11 @@
-# Create React App example
+# Create React Single Page App
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
-
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app
-cd create-react-app
+npm -g i fpm-dev-cli
+fpm-dev create app1 -t mui-sp
+cd app1
 ```
 
 Install it and run:
@@ -16,6 +15,8 @@ npm install
 npm run start
 ```
 
-## The idea behind the example
+# Changelog
 
-[Create React App](https://github.com/facebookincubator/create-react-app) with no build configuration.
+- V0.0.1
+  - [x] replace the google fonts to [www.font.im](https://www.font.im)
+  - [x] change the `favicon.ico` to use fpm2
